@@ -11,7 +11,13 @@ global ETH_PORT_SPEED
 global BOARD
 set BOARD "DK-DEV-AGI027RES"
 
-set COMPONENTS [list [list "FPGA_COMMON" $CARD_COMMON_BASE $BOARD]]
+# Paths to components
+set ASYNC_OPEN_LOOP_BASE "$OFM_PATH/comp/base/async/open_loop"
+
+set COMPONENTS [concat $COMPONENTS [list \
+    [list "FPGA_COMMON"     $CARD_COMMON_BASE     $BOARD ] \
+    [list "ASYNC_OPEN_LOOP" $ASYNC_OPEN_LOOP_BASE "FULL" ] \
+]]
 
 # IP sources
 set MOD "$MOD $ENTITY_BASE/ip/iopll_ip.ip"

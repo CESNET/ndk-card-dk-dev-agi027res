@@ -214,6 +214,7 @@ architecture FULL of FPGA is
     signal mem_rst                : std_logic_vector(MEM_PORTS-1 downto 0);
     signal mem_rst_n              : std_logic_vector(MEM_PORTS-1 downto 0);
     signal mem_pll_locked         : std_logic_vector(MEM_PORTS-1 downto 0);
+    signal mem_pll_locked_sync    : std_logic_vector(MEM_PORTS-1 downto 0);
     
     signal mem_avmm_ready         : std_logic_vector(MEM_PORTS-1 downto 0);
     signal mem_avmm_read          : std_logic_vector(MEM_PORTS-1 downto 0);
@@ -244,7 +245,23 @@ begin
     FPGA_DIMM_SCL <= '1';
     FPGA_DIMM_SDA <= '1';
 
-    mem_rst <= not (mem_rst_n and mem_pll_locked);
+    mem_rst_g : for i in 0 to MEM_PORTS-1 generate
+        mem_pll_locked_sync_i : entity work.ASYNC_OPEN_LOOP
+        generic map(
+            IN_REG  => false,
+            TWO_REG => false
+        )
+        port map(
+            ACLK     => '0',
+            BCLK     => mem_clk(i),
+            ARST     => '0',
+            BRST     => '0',
+            ADATAIN  => mem_pll_locked(i),
+            BDATAOUT => mem_pll_locked_sync(i)
+        );
+
+        mem_rst(i) <= not (mem_rst_n(i) and mem_pll_locked_sync(i));
+    end generate;
 
     qsfpdd_1v2_port_en <= '1';
 

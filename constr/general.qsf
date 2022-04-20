@@ -87,6 +87,7 @@ set_global_assignment -name PWRMGT_LINEAR_FORMAT_N "-13"
 set_global_assignment -name PWRMGT_TRANSLATED_VOLTAGE_VALUE_UNIT VOLTS
 set_global_assignment -name PWRMGT_PAGE_COMMAND_ENABLE OFF
 set_global_assignment -name AUTO_RESTART_CONFIGURATION OFF
+set_global_assignment -name GENERATE_COMPRESSED_SOF ON
 set_global_assignment -name STRATIXV_CONFIGURATION_SCHEME "AVST X8"
 set_global_assignment -name ACTIVE_SERIAL_CLOCK AS_FREQ_115MHZ_IOSC
 set_global_assignment -name DEVICE_INITIALIZATION_CLOCK OSC_CLK_1_125MHZ

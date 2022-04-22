@@ -22,7 +22,7 @@ create_clock -name {refclk_pcie_14c_ch1_p} -period 10.000 -waveform {0 5} {refcl
 create_clock -name {refclk_cxl_15c_ch0_p} -period 10.000 -waveform {0 5} {refclk_cxl_15c_ch0_p}
 create_clock -name {refclk_cxl_15c_ch1_p} -period 10.000 -waveform {0 5} {refclk_cxl_15c_ch1_p}
 
-set MI_CLK [get_clocks ag_i|s10_iopll_ip|iopll_0_outclk3]
+set MI_CLK [get_clocks ag_i|clk_gen_i|iopll_i|iopll_0_outclk3]
 #set JTAG_CLK [get_clocks altera_reserved_tck]
 set FHIP_400G_CLK [get_clocks ag_i|network_mod_i|eth_core_g[0].network_mod_core_i|eth_port_mode_sel_g.ftile_eth_ip_i|eth_f_0|tx_clkout|ch23]
                            

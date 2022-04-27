@@ -242,8 +242,8 @@ begin
     fpga_i2c2_en  <= 'Z';
     --fpga_i2c2_scl <= 'Z';
     --fpga_i2c2_sda <= 'Z';
-    FPGA_DIMM_SCL <= '1';
-    FPGA_DIMM_SDA <= '1';
+    FPGA_DIMM_SCL <= 'Z';
+    FPGA_DIMM_SDA <= 'Z';
 
     mem_rst_g : for i in 0 to MEM_PORTS-1 generate
         mem_pll_locked_sync_i : entity work.ASYNC_OPEN_LOOP

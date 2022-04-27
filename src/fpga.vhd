@@ -19,7 +19,7 @@ entity FPGA is
 port (
     -- FPGA system clock
     clk_sys_100m_p        : in    std_logic;
-    clk_sys_bak_50m_p     : in    std_logic;
+    --clk_sys_bak_50m_p     : in    std_logic;
 
     -- Board/FPGA control
     cpu_1v2_resetn        : in    std_logic;
@@ -174,15 +174,17 @@ architecture FULL of FPGA is
 
     component emif_agi027_cal is
     port (
-        calbus_read_0          : out std_logic;                                          
-        calbus_write_0         : out std_logic;                                          
-        calbus_address_0       : out std_logic_vector(19 downto 0);                      
-        calbus_wdata_0         : out std_logic_vector(31 downto 0);                      
-        calbus_rdata_0         : in  std_logic_vector(31 downto 0)   := (others => 'X'); 
-        calbus_seq_param_tbl_0 : in  std_logic_vector(4095 downto 0) := (others => 'X'); 
-        calbus_clk             : out std_logic                                           
+        calbus_read_0           : out std_logic;                                          -- calbus_read
+        calbus_write_0          : out std_logic;                                          -- calbus_write
+        calbus_address_0        : out std_logic_vector(19 downto 0);                      -- calbus_address
+        calbus_wdata_0          : out std_logic_vector(31 downto 0);                      -- calbus_wdata
+        calbus_rdata_0          : in  std_logic_vector(31 downto 0)   := (others => 'X'); -- calbus_rdata
+        calbus_seq_param_tbl_0  : in  std_logic_vector(4095 downto 0) := (others => 'X'); -- calbus_seq_param_tbl
+        calbus_clk              : out std_logic;                                          -- clk
+        cal_debug_clk_clk       : in  std_logic                       := 'X';             -- clk
+        cal_debug_reset_n_reset : in  std_logic                       := 'X'              -- reset
     );
-    end component;
+    end component emif_agi027_cal;
 
     -- DMA debug parameters
     constant DMA_GEN_LOOP_EN : boolean := true;
@@ -442,7 +444,9 @@ begin
         calbus_wdata_0              => calbus_wdata,    
         calbus_rdata_0              => calbus_rdata,       
         calbus_seq_param_tbl_0      => calbus_seq_param_tbl,
-        calbus_clk                  => calbus_clk
+        calbus_clk                  => calbus_clk,
+        cal_debug_clk_clk           => mem_clk(0),
+        cal_debug_reset_n_reset     => mem_rst_n(0)
     );
 
 end architecture;

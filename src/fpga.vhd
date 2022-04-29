@@ -323,7 +323,8 @@ begin
         SYSCLK                  => clk_sys_100m_p,
         SYSRST                  => '0',
 
-        PCIE_SYSCLK             => refclk_cxl_15c_ch1_p & refclk_cxl_15c_ch0_p & refclk_pcie_14c_ch1_p & refclk_pcie_14c_ch0_p,
+        PCIE_SYSCLK_P           => refclk_cxl_15c_ch1_p & refclk_cxl_15c_ch0_p & refclk_pcie_14c_ch1_p & refclk_pcie_14c_ch0_p,
+        PCIE_SYSCLK_N           => (others => '0'),
         PCIE_SYSRST_N           => fpga_cxl_perstn & fpga_pcie_perstn,
 
         PCIE_RX_P(1*PCIE_LANES-1 downto 0*PCIE_LANES) => pcie_ep_rx_p,

@@ -100,6 +100,28 @@ set_instance_assignment -name IO_STANDARD "HSSI DIFFERENTIAL I/O" -to qsfpdd0_rx
 set_instance_assignment -name IO_STANDARD "HSSI DIFFERENTIAL I/O" -to qsfpdd1_tx_p
 set_instance_assignment -name IO_STANDARD "HSSI DIFFERENTIAL I/O" -to qsfpdd1_rx_p
 
+set_instance_assignment -name HSSI_PARAMETER "rx_onchip_termination=RX_ONCHIP_TERMINATION_R_2" -to qsfpdd1_rx_p[0]
+set_instance_assignment -name HSSI_PARAMETER "rx_onchip_termination=RX_ONCHIP_TERMINATION_R_2" -to qsfpdd1_rx_p[1]
+set_instance_assignment -name HSSI_PARAMETER "rx_onchip_termination=RX_ONCHIP_TERMINATION_R_2" -to qsfpdd1_rx_p[2]
+set_instance_assignment -name HSSI_PARAMETER "rx_onchip_termination=RX_ONCHIP_TERMINATION_R_2" -to qsfpdd1_rx_p[3]
+set_instance_assignment -name HSSI_PARAMETER "rx_onchip_termination=RX_ONCHIP_TERMINATION_R_2" -to qsfpdd1_rx_p[4]
+set_instance_assignment -name HSSI_PARAMETER "rx_onchip_termination=RX_ONCHIP_TERMINATION_R_2" -to qsfpdd1_rx_p[5]
+set_instance_assignment -name HSSI_PARAMETER "rx_onchip_termination=RX_ONCHIP_TERMINATION_R_2" -to qsfpdd1_rx_p[6]
+set_instance_assignment -name HSSI_PARAMETER "rx_onchip_termination=RX_ONCHIP_TERMINATION_R_2" -to qsfpdd1_rx_p[7]
+
+set_instance_assignment -name HSSI_PARAMETER "rx_ac_couple_enable=ENABLE" -to qsfpdd1_rx_p[0]
+set_instance_assignment -name HSSI_PARAMETER "rx_ac_couple_enable=ENABLE" -to qsfpdd1_rx_p[1]
+set_instance_assignment -name HSSI_PARAMETER "rx_ac_couple_enable=ENABLE" -to qsfpdd1_rx_p[2]
+set_instance_assignment -name HSSI_PARAMETER "rx_ac_couple_enable=ENABLE" -to qsfpdd1_rx_p[3]
+set_instance_assignment -name HSSI_PARAMETER "rx_ac_couple_enable=ENABLE" -to qsfpdd1_rx_p[4]
+set_instance_assignment -name HSSI_PARAMETER "rx_ac_couple_enable=ENABLE" -to qsfpdd1_rx_p[5]
+set_instance_assignment -name HSSI_PARAMETER "rx_ac_couple_enable=ENABLE" -to qsfpdd1_rx_p[6]
+set_instance_assignment -name HSSI_PARAMETER "rx_ac_couple_enable=ENABLE" -to qsfpdd1_rx_p[7]
+
+# ==============================================================================
+# HSSI Parameters for Quartus 21.4
+# ==============================================================================
+
 set_instance_assignment -name HSSI_PARAMETER "txeq_main_tap=35" -to qsfpdd1_tx_p[0]
 set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_1=0" -to qsfpdd1_tx_p[0]
 set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_2=0" -to qsfpdd1_tx_p[0]
@@ -133,24 +155,6 @@ set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_1=0" -to qsfpdd1_tx_p
 set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_2=0" -to qsfpdd1_tx_p[7]
 set_instance_assignment -name HSSI_PARAMETER "txeq_post_tap_1=5" -to qsfpdd1_tx_p[7]
 
-set_instance_assignment -name HSSI_PARAMETER "rx_ac_couple_enable=ENABLE" -to qsfpdd1_rx_p[0]
-set_instance_assignment -name HSSI_PARAMETER "rx_ac_couple_enable=ENABLE" -to qsfpdd1_rx_p[1]
-set_instance_assignment -name HSSI_PARAMETER "rx_ac_couple_enable=ENABLE" -to qsfpdd1_rx_p[2]
-set_instance_assignment -name HSSI_PARAMETER "rx_ac_couple_enable=ENABLE" -to qsfpdd1_rx_p[3]
-set_instance_assignment -name HSSI_PARAMETER "rx_ac_couple_enable=ENABLE" -to qsfpdd1_rx_p[4]
-set_instance_assignment -name HSSI_PARAMETER "rx_ac_couple_enable=ENABLE" -to qsfpdd1_rx_p[5]
-set_instance_assignment -name HSSI_PARAMETER "rx_ac_couple_enable=ENABLE" -to qsfpdd1_rx_p[6]
-set_instance_assignment -name HSSI_PARAMETER "rx_ac_couple_enable=ENABLE" -to qsfpdd1_rx_p[7]
-	
-set_instance_assignment -name HSSI_PARAMETER "rx_onchip_termination=RX_ONCHIP_TERMINATION_R_2" -to qsfpdd1_rx_p[0]
-set_instance_assignment -name HSSI_PARAMETER "rx_onchip_termination=RX_ONCHIP_TERMINATION_R_2" -to qsfpdd1_rx_p[1]
-set_instance_assignment -name HSSI_PARAMETER "rx_onchip_termination=RX_ONCHIP_TERMINATION_R_2" -to qsfpdd1_rx_p[2]
-set_instance_assignment -name HSSI_PARAMETER "rx_onchip_termination=RX_ONCHIP_TERMINATION_R_2" -to qsfpdd1_rx_p[3]
-set_instance_assignment -name HSSI_PARAMETER "rx_onchip_termination=RX_ONCHIP_TERMINATION_R_2" -to qsfpdd1_rx_p[4]
-set_instance_assignment -name HSSI_PARAMETER "rx_onchip_termination=RX_ONCHIP_TERMINATION_R_2" -to qsfpdd1_rx_p[5]
-set_instance_assignment -name HSSI_PARAMETER "rx_onchip_termination=RX_ONCHIP_TERMINATION_R_2" -to qsfpdd1_rx_p[6]
-set_instance_assignment -name HSSI_PARAMETER "rx_onchip_termination=RX_ONCHIP_TERMINATION_R_2" -to qsfpdd1_rx_p[7]
-
 set_instance_assignment -name HSSI_PARAMETER "rx_term_mode_select=RX_TERM_MODE_SELECT_GROUNDED" -to qsfpdd1_rx_p[0]
 set_instance_assignment -name HSSI_PARAMETER "rx_term_mode_select=RX_TERM_MODE_SELECT_GROUNDED" -to qsfpdd1_rx_p[1]
 set_instance_assignment -name HSSI_PARAMETER "rx_term_mode_select=RX_TERM_MODE_SELECT_GROUNDED" -to qsfpdd1_rx_p[2]
@@ -159,3 +163,40 @@ set_instance_assignment -name HSSI_PARAMETER "rx_term_mode_select=RX_TERM_MODE_S
 set_instance_assignment -name HSSI_PARAMETER "rx_term_mode_select=RX_TERM_MODE_SELECT_GROUNDED" -to qsfpdd1_rx_p[5]
 set_instance_assignment -name HSSI_PARAMETER "rx_term_mode_select=RX_TERM_MODE_SELECT_GROUNDED" -to qsfpdd1_rx_p[6]
 set_instance_assignment -name HSSI_PARAMETER "rx_term_mode_select=RX_TERM_MODE_SELECT_GROUNDED" -to qsfpdd1_rx_p[7]
+
+# ==============================================================================
+# HSSI Parameters for Quartus 22.1+
+# ==============================================================================
+
+#set_instance_assignment -name HSSI_PARAMETER "txeq_main_tap=25"  -to qsfpdd1_tx_p[0]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_1=5"  -to qsfpdd1_tx_p[0]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_2=0"  -to qsfpdd1_tx_p[0]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_post_tap_1=0" -to qsfpdd1_tx_p[0]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_main_tap=25"  -to qsfpdd1_tx_p[1]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_1=5"  -to qsfpdd1_tx_p[1]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_2=0"  -to qsfpdd1_tx_p[1]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_post_tap_1=0" -to qsfpdd1_tx_p[1]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_main_tap=25"  -to qsfpdd1_tx_p[2]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_1=5"  -to qsfpdd1_tx_p[2]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_2=0"  -to qsfpdd1_tx_p[2]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_post_tap_1=0" -to qsfpdd1_tx_p[2]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_main_tap=25"  -to qsfpdd1_tx_p[3]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_1=5"  -to qsfpdd1_tx_p[3]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_2=0"  -to qsfpdd1_tx_p[3]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_post_tap_1=0" -to qsfpdd1_tx_p[3]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_main_tap=25"  -to qsfpdd1_tx_p[4]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_1=5"  -to qsfpdd1_tx_p[4]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_2=0"  -to qsfpdd1_tx_p[4]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_post_tap_1=0" -to qsfpdd1_tx_p[4]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_main_tap=25"  -to qsfpdd1_tx_p[5]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_1=5"  -to qsfpdd1_tx_p[5]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_2=0"  -to qsfpdd1_tx_p[5]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_post_tap_1=0" -to qsfpdd1_tx_p[5]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_main_tap=25"  -to qsfpdd1_tx_p[6]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_1=5"  -to qsfpdd1_tx_p[6]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_2=0"  -to qsfpdd1_tx_p[6]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_post_tap_1=0" -to qsfpdd1_tx_p[6]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_main_tap=25"  -to qsfpdd1_tx_p[7]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_1=5"  -to qsfpdd1_tx_p[7]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_pre_tap_2=0"  -to qsfpdd1_tx_p[7]
+#set_instance_assignment -name HSSI_PARAMETER "txeq_post_tap_1=0" -to qsfpdd1_tx_p[7]

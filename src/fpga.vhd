@@ -286,7 +286,7 @@ begin
         ETH_LANES               => ETH_LANES,
 
         QSFP_PORTS              => ETH_PORTS,
-        ETH_PORT_LEDS           => 3,
+        ETH_PORT_LEDS           => 1,
 
         STATUS_LEDS             => 4,
 
@@ -347,8 +347,8 @@ begin
         ETH_TX_P => qsfpdd1_tx_p,
         ETH_TX_N => qsfpdd1_tx_n,
 
-        ETH_LED_R               => open,
-        ETH_LED_G               => open,
+        ETH_LED_R(0)            => qsfpdd1_fpga_led(2),
+        ETH_LED_G(0)            => qsfpdd1_fpga_led(0),
 
         QSFP_I2C_SCL(0)         => fpga_i2c2_scl,
         QSFP_I2C_SDA(0)         => fpga_i2c2_sda,

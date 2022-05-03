@@ -186,6 +186,19 @@ architecture FULL of FPGA is
     );
     end component emif_agi027_cal;
 
+    function f_dma_endpoints(PCIE_ENDPOINTS : natural; PCIE_EP_MODE : natural; PCIE_GEN : natural) return natural is
+        variable dma_ep_v : natural;
+    begin
+        dma_ep_v := PCIE_ENDPOINTS;
+        if (PCIE_EP_MODE = 0) then
+            dma_ep_v := 2*dma_ep_v;
+        end if;
+        if (PCIE_GEN = 5) then
+            dma_ep_v := 2*dma_ep_v;
+        end if;
+        return dma_ep_v;
+    end function;
+
     -- DMA debug parameters
     constant DMA_GEN_LOOP_EN : boolean := true;
 
@@ -196,7 +209,7 @@ architecture FULL of FPGA is
     constant MISC_OUT_WIDTH : integer := 8;
     constant ETH_LANES      : integer := 8;
     constant DMA_MODULES    : integer := ETH_PORTS;
-    constant DMA_ENDPOINTS  : integer := tsel(PCIE_ENDPOINT_MODE=1,PCIE_ENDPOINTS,2*PCIE_ENDPOINTS);
+    constant DMA_ENDPOINTS  : integer := f_dma_endpoints(PCIE_ENDPOINTS,PCIE_ENDPOINT_MODE,PCIE_GEN);
 
     constant MEM_PORTS          : integer := 1;
     constant MEM_ADDR_WIDTH     : integer := 28;

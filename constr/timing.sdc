@@ -15,7 +15,7 @@ create_clock -name {altera_reserved_tck} -period 41.667 [get_ports { altera_rese
 create_clock -name {refclk_fgt12ach4_p} -period 6.4 [get_ports refclk_fgt12ach4_p]
 #create_clock -name {refclk_fgt12ach5_p} -period 6.4 [get_ports refclk_fgt12ach5_p]
 #create_clock -name {refclk_fgt12ach6_p} -period 5.425 [get_ports refclk_fgt12ach6_p]
-#create_clock -name {CLK_DDR4_CH2_P}     -period 30.0 [get_ports CLK_DDR4_CH2_P]
+create_clock -name {CLK_DDR4_CH2_P}     -period 30.0 [get_ports CLK_DDR4_CH2_P]
 
 create_clock -name {refclk_pcie_14c_ch0_p} -period 10.000 -waveform {0 5} {refclk_pcie_14c_ch0_p}
 create_clock -name {refclk_pcie_14c_ch1_p} -period 10.000 -waveform {0 5} {refclk_pcie_14c_ch1_p}

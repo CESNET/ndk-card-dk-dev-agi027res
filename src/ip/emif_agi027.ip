@@ -16,14 +16,14 @@ https://fpgasoftware.intel.com/eula.-->
   <ipxact:vendor>Intel Corporation</ipxact:vendor>
   <ipxact:library>emif_agi027</ipxact:library>
   <ipxact:name>emif_fm_0</ipxact:name>
-  <ipxact:version>2.6.0</ipxact:version>
+  <ipxact:version>2.6.1</ipxact:version>
   <ipxact:busInterfaces>
     <ipxact:busInterface>
       <ipxact:name>local_reset_req</ipxact:name>
-      <ipxact:busType vendor="intel" library="intel" name="conduit" version="21.4"></ipxact:busType>
+      <ipxact:busType vendor="intel" library="intel" name="conduit" version="22.1"></ipxact:busType>
       <ipxact:abstractionTypes>
         <ipxact:abstractionType>
-          <ipxact:abstractionRef vendor="intel" library="intel" name="conduit" version="21.4"></ipxact:abstractionRef>
+          <ipxact:abstractionRef vendor="intel" library="intel" name="conduit" version="22.1"></ipxact:abstractionRef>
           <ipxact:portMaps>
             <ipxact:portMap>
               <ipxact:logicalPort>
@@ -57,10 +57,10 @@ https://fpgasoftware.intel.com/eula.-->
     </ipxact:busInterface>
     <ipxact:busInterface>
       <ipxact:name>local_reset_status</ipxact:name>
-      <ipxact:busType vendor="intel" library="intel" name="conduit" version="21.4"></ipxact:busType>
+      <ipxact:busType vendor="intel" library="intel" name="conduit" version="22.1"></ipxact:busType>
       <ipxact:abstractionTypes>
         <ipxact:abstractionType>
-          <ipxact:abstractionRef vendor="intel" library="intel" name="conduit" version="21.4"></ipxact:abstractionRef>
+          <ipxact:abstractionRef vendor="intel" library="intel" name="conduit" version="22.1"></ipxact:abstractionRef>
           <ipxact:portMaps>
             <ipxact:portMap>
               <ipxact:logicalPort>
@@ -94,10 +94,10 @@ https://fpgasoftware.intel.com/eula.-->
     </ipxact:busInterface>
     <ipxact:busInterface>
       <ipxact:name>pll_ref_clk</ipxact:name>
-      <ipxact:busType vendor="intel" library="intel" name="clock" version="21.4"></ipxact:busType>
+      <ipxact:busType vendor="intel" library="intel" name="clock" version="22.1"></ipxact:busType>
       <ipxact:abstractionTypes>
         <ipxact:abstractionType>
-          <ipxact:abstractionRef vendor="intel" library="intel" name="clock" version="21.4"></ipxact:abstractionRef>
+          <ipxact:abstractionRef vendor="intel" library="intel" name="clock" version="22.1"></ipxact:abstractionRef>
           <ipxact:portMaps>
             <ipxact:portMap>
               <ipxact:logicalPort>
@@ -131,10 +131,10 @@ https://fpgasoftware.intel.com/eula.-->
     </ipxact:busInterface>
     <ipxact:busInterface>
       <ipxact:name>pll_locked</ipxact:name>
-      <ipxact:busType vendor="intel" library="intel" name="conduit" version="21.4"></ipxact:busType>
+      <ipxact:busType vendor="intel" library="intel" name="conduit" version="22.1"></ipxact:busType>
       <ipxact:abstractionTypes>
         <ipxact:abstractionType>
-          <ipxact:abstractionRef vendor="intel" library="intel" name="conduit" version="21.4"></ipxact:abstractionRef>
+          <ipxact:abstractionRef vendor="intel" library="intel" name="conduit" version="22.1"></ipxact:abstractionRef>
           <ipxact:portMaps>
             <ipxact:portMap>
               <ipxact:logicalPort>
@@ -168,10 +168,10 @@ https://fpgasoftware.intel.com/eula.-->
     </ipxact:busInterface>
     <ipxact:busInterface>
       <ipxact:name>oct</ipxact:name>
-      <ipxact:busType vendor="intel" library="intel" name="conduit" version="21.4"></ipxact:busType>
+      <ipxact:busType vendor="intel" library="intel" name="conduit" version="22.1"></ipxact:busType>
       <ipxact:abstractionTypes>
         <ipxact:abstractionType>
-          <ipxact:abstractionRef vendor="intel" library="intel" name="conduit" version="21.4"></ipxact:abstractionRef>
+          <ipxact:abstractionRef vendor="intel" library="intel" name="conduit" version="22.1"></ipxact:abstractionRef>
           <ipxact:portMaps>
             <ipxact:portMap>
               <ipxact:logicalPort>
@@ -205,10 +205,10 @@ https://fpgasoftware.intel.com/eula.-->
     </ipxact:busInterface>
     <ipxact:busInterface>
       <ipxact:name>mem</ipxact:name>
-      <ipxact:busType vendor="intel" library="intel" name="conduit" version="21.4"></ipxact:busType>
+      <ipxact:busType vendor="intel" library="intel" name="conduit" version="22.1"></ipxact:busType>
       <ipxact:abstractionTypes>
         <ipxact:abstractionType>
-          <ipxact:abstractionRef vendor="intel" library="intel" name="conduit" version="21.4"></ipxact:abstractionRef>
+          <ipxact:abstractionRef vendor="intel" library="intel" name="conduit" version="22.1"></ipxact:abstractionRef>
           <ipxact:portMaps>
             <ipxact:portMap>
               <ipxact:logicalPort>
@@ -354,10 +354,10 @@ https://fpgasoftware.intel.com/eula.-->
     </ipxact:busInterface>
     <ipxact:busInterface>
       <ipxact:name>status</ipxact:name>
-      <ipxact:busType vendor="intel" library="intel" name="conduit" version="21.4"></ipxact:busType>
+      <ipxact:busType vendor="intel" library="intel" name="conduit" version="22.1"></ipxact:busType>
       <ipxact:abstractionTypes>
         <ipxact:abstractionType>
-          <ipxact:abstractionRef vendor="intel" library="intel" name="conduit" version="21.4"></ipxact:abstractionRef>
+          <ipxact:abstractionRef vendor="intel" library="intel" name="conduit" version="22.1"></ipxact:abstractionRef>
           <ipxact:portMaps>
             <ipxact:portMap>
               <ipxact:logicalPort>
@@ -399,10 +399,10 @@ https://fpgasoftware.intel.com/eula.-->
     </ipxact:busInterface>
     <ipxact:busInterface>
       <ipxact:name>emif_calbus</ipxact:name>
-      <ipxact:busType vendor="intel" library="intel" name="conduit" version="21.4"></ipxact:busType>
+      <ipxact:busType vendor="intel" library="intel" name="conduit" version="22.1"></ipxact:busType>
       <ipxact:abstractionTypes>
         <ipxact:abstractionType>
-          <ipxact:abstractionRef vendor="intel" library="intel" name="conduit" version="21.4"></ipxact:abstractionRef>
+          <ipxact:abstractionRef vendor="intel" library="intel" name="conduit" version="22.1"></ipxact:abstractionRef>
           <ipxact:portMaps>
             <ipxact:portMap>
               <ipxact:logicalPort>
@@ -476,10 +476,10 @@ https://fpgasoftware.intel.com/eula.-->
     </ipxact:busInterface>
     <ipxact:busInterface>
       <ipxact:name>emif_calbus_clk</ipxact:name>
-      <ipxact:busType vendor="intel" library="intel" name="clock" version="21.4"></ipxact:busType>
+      <ipxact:busType vendor="intel" library="intel" name="clock" version="22.1"></ipxact:busType>
       <ipxact:abstractionTypes>
         <ipxact:abstractionType>
-          <ipxact:abstractionRef vendor="intel" library="intel" name="clock" version="21.4"></ipxact:abstractionRef>
+          <ipxact:abstractionRef vendor="intel" library="intel" name="clock" version="22.1"></ipxact:abstractionRef>
           <ipxact:portMaps>
             <ipxact:portMap>
               <ipxact:logicalPort>
@@ -513,10 +513,10 @@ https://fpgasoftware.intel.com/eula.-->
     </ipxact:busInterface>
     <ipxact:busInterface>
       <ipxact:name>emif_usr_reset_n</ipxact:name>
-      <ipxact:busType vendor="intel" library="intel" name="reset" version="21.4"></ipxact:busType>
+      <ipxact:busType vendor="intel" library="intel" name="reset" version="22.1"></ipxact:busType>
       <ipxact:abstractionTypes>
         <ipxact:abstractionType>
-          <ipxact:abstractionRef vendor="intel" library="intel" name="reset" version="21.4"></ipxact:abstractionRef>
+          <ipxact:abstractionRef vendor="intel" library="intel" name="reset" version="22.1"></ipxact:abstractionRef>
           <ipxact:portMaps>
             <ipxact:portMap>
               <ipxact:logicalPort>
@@ -555,10 +555,10 @@ https://fpgasoftware.intel.com/eula.-->
     </ipxact:busInterface>
     <ipxact:busInterface>
       <ipxact:name>emif_usr_clk</ipxact:name>
-      <ipxact:busType vendor="intel" library="intel" name="clock" version="21.4"></ipxact:busType>
+      <ipxact:busType vendor="intel" library="intel" name="clock" version="22.1"></ipxact:busType>
       <ipxact:abstractionTypes>
         <ipxact:abstractionType>
-          <ipxact:abstractionRef vendor="intel" library="intel" name="clock" version="21.4"></ipxact:abstractionRef>
+          <ipxact:abstractionRef vendor="intel" library="intel" name="clock" version="22.1"></ipxact:abstractionRef>
           <ipxact:portMaps>
             <ipxact:portMap>
               <ipxact:logicalPort>
@@ -602,10 +602,10 @@ https://fpgasoftware.intel.com/eula.-->
     </ipxact:busInterface>
     <ipxact:busInterface>
       <ipxact:name>ctrl_ecc_user_interrupt_0</ipxact:name>
-      <ipxact:busType vendor="intel" library="intel" name="conduit" version="21.4"></ipxact:busType>
+      <ipxact:busType vendor="intel" library="intel" name="conduit" version="22.1"></ipxact:busType>
       <ipxact:abstractionTypes>
         <ipxact:abstractionType>
-          <ipxact:abstractionRef vendor="intel" library="intel" name="conduit" version="21.4"></ipxact:abstractionRef>
+          <ipxact:abstractionRef vendor="intel" library="intel" name="conduit" version="22.1"></ipxact:abstractionRef>
           <ipxact:portMaps>
             <ipxact:portMap>
               <ipxact:logicalPort>
@@ -639,10 +639,10 @@ https://fpgasoftware.intel.com/eula.-->
     </ipxact:busInterface>
     <ipxact:busInterface>
       <ipxact:name>ctrl_amm_0</ipxact:name>
-      <ipxact:busType vendor="intel" library="intel" name="avalon" version="21.4"></ipxact:busType>
+      <ipxact:busType vendor="intel" library="intel" name="avalon" version="22.1"></ipxact:busType>
       <ipxact:abstractionTypes>
         <ipxact:abstractionType>
-          <ipxact:abstractionRef vendor="intel" library="intel" name="avalon" version="21.4"></ipxact:abstractionRef>
+          <ipxact:abstractionRef vendor="intel" library="intel" name="avalon" version="22.1"></ipxact:abstractionRef>
           <ipxact:portMaps>
             <ipxact:portMap>
               <ipxact:logicalPort>
@@ -941,6 +941,356 @@ https://fpgasoftware.intel.com/eula.-->
           </ipxact:parameters>
         </altera:altera_assignments>
       </ipxact:vendorExtensions>
+    </ipxact:busInterface>
+    <ipxact:busInterface>
+      <ipxact:name>ctrl_mmr_slave_0</ipxact:name>
+      <ipxact:busType vendor="intel" library="intel" name="avalon" version="22.1"></ipxact:busType>
+      <ipxact:abstractionTypes>
+        <ipxact:abstractionType>
+          <ipxact:abstractionRef vendor="intel" library="intel" name="avalon" version="22.1"></ipxact:abstractionRef>
+          <ipxact:portMaps>
+            <ipxact:portMap>
+              <ipxact:logicalPort>
+                <ipxact:name>waitrequest</ipxact:name>
+              </ipxact:logicalPort>
+              <ipxact:physicalPort>
+                <ipxact:name>mmr_slave_waitrequest_0</ipxact:name>
+              </ipxact:physicalPort>
+            </ipxact:portMap>
+            <ipxact:portMap>
+              <ipxact:logicalPort>
+                <ipxact:name>read</ipxact:name>
+              </ipxact:logicalPort>
+              <ipxact:physicalPort>
+                <ipxact:name>mmr_slave_read_0</ipxact:name>
+              </ipxact:physicalPort>
+            </ipxact:portMap>
+            <ipxact:portMap>
+              <ipxact:logicalPort>
+                <ipxact:name>write</ipxact:name>
+              </ipxact:logicalPort>
+              <ipxact:physicalPort>
+                <ipxact:name>mmr_slave_write_0</ipxact:name>
+              </ipxact:physicalPort>
+            </ipxact:portMap>
+            <ipxact:portMap>
+              <ipxact:logicalPort>
+                <ipxact:name>address</ipxact:name>
+              </ipxact:logicalPort>
+              <ipxact:physicalPort>
+                <ipxact:name>mmr_slave_address_0</ipxact:name>
+              </ipxact:physicalPort>
+            </ipxact:portMap>
+            <ipxact:portMap>
+              <ipxact:logicalPort>
+                <ipxact:name>readdata</ipxact:name>
+              </ipxact:logicalPort>
+              <ipxact:physicalPort>
+                <ipxact:name>mmr_slave_readdata_0</ipxact:name>
+              </ipxact:physicalPort>
+            </ipxact:portMap>
+            <ipxact:portMap>
+              <ipxact:logicalPort>
+                <ipxact:name>writedata</ipxact:name>
+              </ipxact:logicalPort>
+              <ipxact:physicalPort>
+                <ipxact:name>mmr_slave_writedata_0</ipxact:name>
+              </ipxact:physicalPort>
+            </ipxact:portMap>
+            <ipxact:portMap>
+              <ipxact:logicalPort>
+                <ipxact:name>burstcount</ipxact:name>
+              </ipxact:logicalPort>
+              <ipxact:physicalPort>
+                <ipxact:name>mmr_slave_burstcount_0</ipxact:name>
+              </ipxact:physicalPort>
+            </ipxact:portMap>
+            <ipxact:portMap>
+              <ipxact:logicalPort>
+                <ipxact:name>beginbursttransfer</ipxact:name>
+              </ipxact:logicalPort>
+              <ipxact:physicalPort>
+                <ipxact:name>mmr_slave_beginbursttransfer_0</ipxact:name>
+              </ipxact:physicalPort>
+            </ipxact:portMap>
+            <ipxact:portMap>
+              <ipxact:logicalPort>
+                <ipxact:name>readdatavalid</ipxact:name>
+              </ipxact:logicalPort>
+              <ipxact:physicalPort>
+                <ipxact:name>mmr_slave_readdatavalid_0</ipxact:name>
+              </ipxact:physicalPort>
+            </ipxact:portMap>
+          </ipxact:portMaps>
+        </ipxact:abstractionType>
+      </ipxact:abstractionTypes>
+      <ipxact:slave></ipxact:slave>
+      <ipxact:parameters>
+        <ipxact:parameter parameterId="addressAlignment" type="string">
+          <ipxact:name>addressAlignment</ipxact:name>
+          <ipxact:displayName>Agent addressing</ipxact:displayName>
+          <ipxact:value>DYNAMIC</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="addressGroup" type="int">
+          <ipxact:name>addressGroup</ipxact:name>
+          <ipxact:displayName>Address group</ipxact:displayName>
+          <ipxact:value>0</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="addressSpan" type="string">
+          <ipxact:name>addressSpan</ipxact:name>
+          <ipxact:displayName>Address span</ipxact:displayName>
+          <ipxact:value>4096</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="addressUnits" type="string">
+          <ipxact:name>addressUnits</ipxact:name>
+          <ipxact:displayName>Address units</ipxact:displayName>
+          <ipxact:value>WORDS</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="alwaysBurstMaxBurst" type="bit">
+          <ipxact:name>alwaysBurstMaxBurst</ipxact:name>
+          <ipxact:displayName>Always burst maximum burst</ipxact:displayName>
+          <ipxact:value>false</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="associatedClock" type="string">
+          <ipxact:name>associatedClock</ipxact:name>
+          <ipxact:displayName>Associated clock</ipxact:displayName>
+          <ipxact:value>emif_usr_clk</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="associatedReset" type="string">
+          <ipxact:name>associatedReset</ipxact:name>
+          <ipxact:displayName>Associated reset</ipxact:displayName>
+          <ipxact:value>emif_usr_reset_n</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="bitsPerSymbol" type="int">
+          <ipxact:name>bitsPerSymbol</ipxact:name>
+          <ipxact:displayName>Bits per symbol</ipxact:displayName>
+          <ipxact:value>8</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="bridgedAddressOffset" type="string">
+          <ipxact:name>bridgedAddressOffset</ipxact:name>
+          <ipxact:displayName>Bridged Address Offset</ipxact:displayName>
+          <ipxact:value>0</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="bridgesToMaster" type="string">
+          <ipxact:name>bridgesToMaster</ipxact:name>
+          <ipxact:displayName>Bridges to host</ipxact:displayName>
+          <ipxact:value></ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="burstOnBurstBoundariesOnly" type="bit">
+          <ipxact:name>burstOnBurstBoundariesOnly</ipxact:name>
+          <ipxact:displayName>Burst on burst boundaries only</ipxact:displayName>
+          <ipxact:value>false</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="burstcountUnits" type="string">
+          <ipxact:name>burstcountUnits</ipxact:name>
+          <ipxact:displayName>Burstcount units</ipxact:displayName>
+          <ipxact:value>WORDS</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="constantBurstBehavior" type="bit">
+          <ipxact:name>constantBurstBehavior</ipxact:name>
+          <ipxact:displayName>Constant burst behavior</ipxact:displayName>
+          <ipxact:value>false</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="explicitAddressSpan" type="string">
+          <ipxact:name>explicitAddressSpan</ipxact:name>
+          <ipxact:displayName>Explicit address span</ipxact:displayName>
+          <ipxact:value>0</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="holdTime" type="int">
+          <ipxact:name>holdTime</ipxact:name>
+          <ipxact:displayName>Hold</ipxact:displayName>
+          <ipxact:value>0</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="interleaveBursts" type="bit">
+          <ipxact:name>interleaveBursts</ipxact:name>
+          <ipxact:displayName>Interleave bursts</ipxact:displayName>
+          <ipxact:value>false</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="isBigEndian" type="bit">
+          <ipxact:name>isBigEndian</ipxact:name>
+          <ipxact:displayName>Big endian</ipxact:displayName>
+          <ipxact:value>false</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="isFlash" type="bit">
+          <ipxact:name>isFlash</ipxact:name>
+          <ipxact:displayName>Flash memory</ipxact:displayName>
+          <ipxact:value>false</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="isMemoryDevice" type="bit">
+          <ipxact:name>isMemoryDevice</ipxact:name>
+          <ipxact:displayName>Memory device</ipxact:displayName>
+          <ipxact:value>false</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="isNonVolatileStorage" type="bit">
+          <ipxact:name>isNonVolatileStorage</ipxact:name>
+          <ipxact:displayName>Non-volatile storage</ipxact:displayName>
+          <ipxact:value>false</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="linewrapBursts" type="bit">
+          <ipxact:name>linewrapBursts</ipxact:name>
+          <ipxact:displayName>Linewrap bursts</ipxact:displayName>
+          <ipxact:value>false</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="maximumPendingReadTransactions" type="int">
+          <ipxact:name>maximumPendingReadTransactions</ipxact:name>
+          <ipxact:displayName>Maximum pending read transactions</ipxact:displayName>
+          <ipxact:value>1</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="maximumPendingWriteTransactions" type="int">
+          <ipxact:name>maximumPendingWriteTransactions</ipxact:name>
+          <ipxact:displayName>Maximum pending write transactions</ipxact:displayName>
+          <ipxact:value>0</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="minimumReadLatency" type="int">
+          <ipxact:name>minimumReadLatency</ipxact:name>
+          <ipxact:displayName>minimumReadLatency</ipxact:displayName>
+          <ipxact:value>1</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="minimumResponseLatency" type="int">
+          <ipxact:name>minimumResponseLatency</ipxact:name>
+          <ipxact:displayName>Minimum response latency</ipxact:displayName>
+          <ipxact:value>1</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="minimumUninterruptedRunLength" type="int">
+          <ipxact:name>minimumUninterruptedRunLength</ipxact:name>
+          <ipxact:displayName>Minimum uninterrupted run length</ipxact:displayName>
+          <ipxact:value>1</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="prSafe" type="bit">
+          <ipxact:name>prSafe</ipxact:name>
+          <ipxact:displayName>Partial Reconfiguration Safe</ipxact:displayName>
+          <ipxact:value>false</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="printableDevice" type="bit">
+          <ipxact:name>printableDevice</ipxact:name>
+          <ipxact:displayName>Can receive stdout/stderr</ipxact:displayName>
+          <ipxact:value>false</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="readLatency" type="int">
+          <ipxact:name>readLatency</ipxact:name>
+          <ipxact:displayName>Read latency</ipxact:displayName>
+          <ipxact:value>0</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="readWaitStates" type="int">
+          <ipxact:name>readWaitStates</ipxact:name>
+          <ipxact:displayName>Read wait states</ipxact:displayName>
+          <ipxact:value>1</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="readWaitTime" type="int">
+          <ipxact:name>readWaitTime</ipxact:name>
+          <ipxact:displayName>Read wait</ipxact:displayName>
+          <ipxact:value>1</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="registerIncomingSignals" type="bit">
+          <ipxact:name>registerIncomingSignals</ipxact:name>
+          <ipxact:displayName>Register incoming signals</ipxact:displayName>
+          <ipxact:value>false</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="registerOutgoingSignals" type="bit">
+          <ipxact:name>registerOutgoingSignals</ipxact:name>
+          <ipxact:displayName>Register outgoing signals</ipxact:displayName>
+          <ipxact:value>false</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="setupTime" type="int">
+          <ipxact:name>setupTime</ipxact:name>
+          <ipxact:displayName>Setup</ipxact:displayName>
+          <ipxact:value>0</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="timingUnits" type="string">
+          <ipxact:name>timingUnits</ipxact:name>
+          <ipxact:displayName>Timing units</ipxact:displayName>
+          <ipxact:value>Cycles</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="transparentBridge" type="bit">
+          <ipxact:name>transparentBridge</ipxact:name>
+          <ipxact:displayName>Transparent bridge</ipxact:displayName>
+          <ipxact:value>false</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="waitrequestAllowance" type="int">
+          <ipxact:name>waitrequestAllowance</ipxact:name>
+          <ipxact:displayName>Waitrequest allowance</ipxact:displayName>
+          <ipxact:value>0</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="wellBehavedWaitrequest" type="bit">
+          <ipxact:name>wellBehavedWaitrequest</ipxact:name>
+          <ipxact:displayName>Well-behaved waitrequest</ipxact:displayName>
+          <ipxact:value>false</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="writeLatency" type="int">
+          <ipxact:name>writeLatency</ipxact:name>
+          <ipxact:displayName>Write latency</ipxact:displayName>
+          <ipxact:value>0</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="writeWaitStates" type="int">
+          <ipxact:name>writeWaitStates</ipxact:name>
+          <ipxact:displayName>Write wait states</ipxact:displayName>
+          <ipxact:value>0</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="writeWaitTime" type="int">
+          <ipxact:name>writeWaitTime</ipxact:name>
+          <ipxact:displayName>Write wait</ipxact:displayName>
+          <ipxact:value>0</ipxact:value>
+        </ipxact:parameter>
+      </ipxact:parameters>
+      <ipxact:vendorExtensions>
+        <altera:altera_assignments>
+          <ipxact:parameters>
+            <ipxact:parameter parameterId="embeddedsw.configuration.isFlash" type="string">
+              <ipxact:name>embeddedsw.configuration.isFlash</ipxact:name>
+              <ipxact:value>0</ipxact:value>
+            </ipxact:parameter>
+            <ipxact:parameter parameterId="embeddedsw.configuration.isMemoryDevice" type="string">
+              <ipxact:name>embeddedsw.configuration.isMemoryDevice</ipxact:name>
+              <ipxact:value>0</ipxact:value>
+            </ipxact:parameter>
+            <ipxact:parameter parameterId="embeddedsw.configuration.isNonVolatileStorage" type="string">
+              <ipxact:name>embeddedsw.configuration.isNonVolatileStorage</ipxact:name>
+              <ipxact:value>0</ipxact:value>
+            </ipxact:parameter>
+            <ipxact:parameter parameterId="embeddedsw.configuration.isPrintableDevice" type="string">
+              <ipxact:name>embeddedsw.configuration.isPrintableDevice</ipxact:name>
+              <ipxact:value>0</ipxact:value>
+            </ipxact:parameter>
+          </ipxact:parameters>
+        </altera:altera_assignments>
+      </ipxact:vendorExtensions>
+    </ipxact:busInterface>
+    <ipxact:busInterface>
+      <ipxact:name>ctrl_auto_precharge_0</ipxact:name>
+      <ipxact:busType vendor="intel" library="intel" name="conduit" version="22.1"></ipxact:busType>
+      <ipxact:abstractionTypes>
+        <ipxact:abstractionType>
+          <ipxact:abstractionRef vendor="intel" library="intel" name="conduit" version="22.1"></ipxact:abstractionRef>
+          <ipxact:portMaps>
+            <ipxact:portMap>
+              <ipxact:logicalPort>
+                <ipxact:name>ctrl_auto_precharge_req</ipxact:name>
+              </ipxact:logicalPort>
+              <ipxact:physicalPort>
+                <ipxact:name>ctrl_auto_precharge_req_0</ipxact:name>
+              </ipxact:physicalPort>
+            </ipxact:portMap>
+          </ipxact:portMaps>
+        </ipxact:abstractionType>
+      </ipxact:abstractionTypes>
+      <ipxact:slave></ipxact:slave>
+      <ipxact:parameters>
+        <ipxact:parameter parameterId="associatedClock" type="string">
+          <ipxact:name>associatedClock</ipxact:name>
+          <ipxact:displayName>associatedClock</ipxact:displayName>
+          <ipxact:value></ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="associatedReset" type="string">
+          <ipxact:name>associatedReset</ipxact:name>
+          <ipxact:displayName>associatedReset</ipxact:displayName>
+          <ipxact:value></ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="prSafe" type="bit">
+          <ipxact:name>prSafe</ipxact:name>
+          <ipxact:displayName>Partial Reconfiguration Safe</ipxact:displayName>
+          <ipxact:value>false</ipxact:value>
+        </ipxact:parameter>
+      </ipxact:parameters>
     </ipxact:busInterface>
   </ipxact:busInterfaces>
   <ipxact:model>
@@ -1525,6 +1875,150 @@ https://fpgasoftware.intel.com/eula.-->
           </ipxact:wireTypeDefs>
         </ipxact:wire>
       </ipxact:port>
+      <ipxact:port>
+        <ipxact:name>mmr_slave_waitrequest_0</ipxact:name>
+        <ipxact:wire>
+          <ipxact:direction>out</ipxact:direction>
+          <ipxact:wireTypeDefs>
+            <ipxact:wireTypeDef>
+              <ipxact:typeName>STD_LOGIC</ipxact:typeName>
+              <ipxact:viewRef>QUARTUS_SYNTH</ipxact:viewRef>
+            </ipxact:wireTypeDef>
+          </ipxact:wireTypeDefs>
+        </ipxact:wire>
+      </ipxact:port>
+      <ipxact:port>
+        <ipxact:name>mmr_slave_read_0</ipxact:name>
+        <ipxact:wire>
+          <ipxact:direction>in</ipxact:direction>
+          <ipxact:wireTypeDefs>
+            <ipxact:wireTypeDef>
+              <ipxact:typeName>STD_LOGIC</ipxact:typeName>
+              <ipxact:viewRef>QUARTUS_SYNTH</ipxact:viewRef>
+            </ipxact:wireTypeDef>
+          </ipxact:wireTypeDefs>
+        </ipxact:wire>
+      </ipxact:port>
+      <ipxact:port>
+        <ipxact:name>mmr_slave_write_0</ipxact:name>
+        <ipxact:wire>
+          <ipxact:direction>in</ipxact:direction>
+          <ipxact:wireTypeDefs>
+            <ipxact:wireTypeDef>
+              <ipxact:typeName>STD_LOGIC</ipxact:typeName>
+              <ipxact:viewRef>QUARTUS_SYNTH</ipxact:viewRef>
+            </ipxact:wireTypeDef>
+          </ipxact:wireTypeDefs>
+        </ipxact:wire>
+      </ipxact:port>
+      <ipxact:port>
+        <ipxact:name>mmr_slave_address_0</ipxact:name>
+        <ipxact:wire>
+          <ipxact:direction>in</ipxact:direction>
+          <ipxact:vectors>
+            <ipxact:vector>
+              <ipxact:left>0</ipxact:left>
+              <ipxact:right>9</ipxact:right>
+            </ipxact:vector>
+          </ipxact:vectors>
+          <ipxact:wireTypeDefs>
+            <ipxact:wireTypeDef>
+              <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
+              <ipxact:viewRef>QUARTUS_SYNTH</ipxact:viewRef>
+            </ipxact:wireTypeDef>
+          </ipxact:wireTypeDefs>
+        </ipxact:wire>
+      </ipxact:port>
+      <ipxact:port>
+        <ipxact:name>mmr_slave_readdata_0</ipxact:name>
+        <ipxact:wire>
+          <ipxact:direction>out</ipxact:direction>
+          <ipxact:vectors>
+            <ipxact:vector>
+              <ipxact:left>0</ipxact:left>
+              <ipxact:right>31</ipxact:right>
+            </ipxact:vector>
+          </ipxact:vectors>
+          <ipxact:wireTypeDefs>
+            <ipxact:wireTypeDef>
+              <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
+              <ipxact:viewRef>QUARTUS_SYNTH</ipxact:viewRef>
+            </ipxact:wireTypeDef>
+          </ipxact:wireTypeDefs>
+        </ipxact:wire>
+      </ipxact:port>
+      <ipxact:port>
+        <ipxact:name>mmr_slave_writedata_0</ipxact:name>
+        <ipxact:wire>
+          <ipxact:direction>in</ipxact:direction>
+          <ipxact:vectors>
+            <ipxact:vector>
+              <ipxact:left>0</ipxact:left>
+              <ipxact:right>31</ipxact:right>
+            </ipxact:vector>
+          </ipxact:vectors>
+          <ipxact:wireTypeDefs>
+            <ipxact:wireTypeDef>
+              <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
+              <ipxact:viewRef>QUARTUS_SYNTH</ipxact:viewRef>
+            </ipxact:wireTypeDef>
+          </ipxact:wireTypeDefs>
+        </ipxact:wire>
+      </ipxact:port>
+      <ipxact:port>
+        <ipxact:name>mmr_slave_burstcount_0</ipxact:name>
+        <ipxact:wire>
+          <ipxact:direction>in</ipxact:direction>
+          <ipxact:vectors>
+            <ipxact:vector>
+              <ipxact:left>0</ipxact:left>
+              <ipxact:right>1</ipxact:right>
+            </ipxact:vector>
+          </ipxact:vectors>
+          <ipxact:wireTypeDefs>
+            <ipxact:wireTypeDef>
+              <ipxact:typeName>STD_LOGIC_VECTOR</ipxact:typeName>
+              <ipxact:viewRef>QUARTUS_SYNTH</ipxact:viewRef>
+            </ipxact:wireTypeDef>
+          </ipxact:wireTypeDefs>
+        </ipxact:wire>
+      </ipxact:port>
+      <ipxact:port>
+        <ipxact:name>mmr_slave_beginbursttransfer_0</ipxact:name>
+        <ipxact:wire>
+          <ipxact:direction>in</ipxact:direction>
+          <ipxact:wireTypeDefs>
+            <ipxact:wireTypeDef>
+              <ipxact:typeName>STD_LOGIC</ipxact:typeName>
+              <ipxact:viewRef>QUARTUS_SYNTH</ipxact:viewRef>
+            </ipxact:wireTypeDef>
+          </ipxact:wireTypeDefs>
+        </ipxact:wire>
+      </ipxact:port>
+      <ipxact:port>
+        <ipxact:name>mmr_slave_readdatavalid_0</ipxact:name>
+        <ipxact:wire>
+          <ipxact:direction>out</ipxact:direction>
+          <ipxact:wireTypeDefs>
+            <ipxact:wireTypeDef>
+              <ipxact:typeName>STD_LOGIC</ipxact:typeName>
+              <ipxact:viewRef>QUARTUS_SYNTH</ipxact:viewRef>
+            </ipxact:wireTypeDef>
+          </ipxact:wireTypeDefs>
+        </ipxact:wire>
+      </ipxact:port>
+      <ipxact:port>
+        <ipxact:name>ctrl_auto_precharge_req_0</ipxact:name>
+        <ipxact:wire>
+          <ipxact:direction>in</ipxact:direction>
+          <ipxact:wireTypeDefs>
+            <ipxact:wireTypeDef>
+              <ipxact:typeName>STD_LOGIC</ipxact:typeName>
+              <ipxact:viewRef>QUARTUS_SYNTH</ipxact:viewRef>
+            </ipxact:wireTypeDef>
+          </ipxact:wireTypeDefs>
+        </ipxact:wire>
+      </ipxact:port>
     </ipxact:ports>
   </ipxact:model>
   <ipxact:vendorExtensions>
@@ -1532,7 +2026,7 @@ https://fpgasoftware.intel.com/eula.-->
       <ipxact:vendor>Intel Corporation</ipxact:vendor>
       <ipxact:library>emif_agi027</ipxact:library>
       <ipxact:name>altera_emif_fm</ipxact:name>
-      <ipxact:version>2.6.0</ipxact:version>
+      <ipxact:version>2.6.1</ipxact:version>
     </altera:entity_info>
     <altera:altera_module_parameters>
       <ipxact:parameters>
@@ -3249,6 +3743,11 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="PHY_DDRT_EXPORT_CLK_STP_IF" type="bit">
           <ipxact:name>PHY_DDRT_EXPORT_CLK_STP_IF</ipxact:name>
           <ipxact:displayName>Export Clock Stop Interface</ipxact:displayName>
+          <ipxact:value>false</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="PHY_DDRT_I2C_USE_SMC" type="bit">
+          <ipxact:name>PHY_DDRT_I2C_USE_SMC</ipxact:name>
+          <ipxact:displayName>PARAM_PHY_I2C_USE_SMC_NAME</ipxact:displayName>
           <ipxact:value>false</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="PHY_DDRT_USER_AC_IO_STD_ENUM" type="string">
@@ -7109,7 +7608,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="CTRL_DDR4_USER_REFRESH_EN" type="bit">
           <ipxact:name>CTRL_DDR4_USER_REFRESH_EN</ipxact:name>
           <ipxact:displayName>Enable User Refresh Control</ipxact:displayName>
-          <ipxact:value>false</ipxact:value>
+          <ipxact:value>true</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="CTRL_DDR4_USER_PRIORITY_EN" type="bit">
           <ipxact:name>CTRL_DDR4_USER_PRIORITY_EN</ipxact:name>
@@ -7119,7 +7618,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="CTRL_DDR4_AUTO_PRECHARGE_EN" type="bit">
           <ipxact:name>CTRL_DDR4_AUTO_PRECHARGE_EN</ipxact:name>
           <ipxact:displayName>Enable Auto-Precharge Control</ipxact:displayName>
-          <ipxact:value>false</ipxact:value>
+          <ipxact:value>true</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="CTRL_DDR4_ADDR_ORDER_ENUM" type="string">
           <ipxact:name>CTRL_DDR4_ADDR_ORDER_ENUM</ipxact:name>
@@ -7159,7 +7658,7 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="CTRL_DDR4_MMR_EN" type="bit">
           <ipxact:name>CTRL_DDR4_MMR_EN</ipxact:name>
           <ipxact:displayName>Enable Memory-Mapped Configuration and Status Register (MMR) Interface</ipxact:displayName>
-          <ipxact:value>false</ipxact:value>
+          <ipxact:value>true</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="CTRL_DDR4_MAJOR_MODE_EN" type="bit">
           <ipxact:name>CTRL_DDR4_MAJOR_MODE_EN</ipxact:name>
@@ -7544,6 +8043,11 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:parameter parameterId="CTRL_DDRT_ERR_INJECT_EN" type="bit">
           <ipxact:name>CTRL_DDRT_ERR_INJECT_EN</ipxact:name>
           <ipxact:displayName>Error Inject EN</ipxact:displayName>
+          <ipxact:value>false</ipxact:value>
+        </ipxact:parameter>
+        <ipxact:parameter parameterId="CTRL_DDRT_EXT_ERR_INJECT_EN" type="bit">
+          <ipxact:name>CTRL_DDRT_EXT_ERR_INJECT_EN</ipxact:name>
+          <ipxact:displayName>Ext Error Inject EN</ipxact:displayName>
           <ipxact:value>false</ipxact:value>
         </ipxact:parameter>
         <ipxact:parameter parameterId="CTRL_DDRT_GNT_TO_WR_SAME_CHIP_DELTA_CYCS" type="int">
@@ -9445,6 +9949,11 @@ https://fpgasoftware.intel.com/eula.-->
     </altera:altera_module_parameters>
     <altera:altera_system_parameters>
       <ipxact:parameters>
+        <ipxact:parameter parameterId="board" type="string">
+          <ipxact:name>board</ipxact:name>
+          <ipxact:displayName>Board</ipxact:displayName>
+          <ipxact:value>Unknown</ipxact:value>
+        </ipxact:parameter>
         <ipxact:parameter parameterId="device" type="string">
           <ipxact:name>device</ipxact:name>
           <ipxact:displayName>Device</ipxact:displayName>
@@ -10378,6 +10887,27 @@ https://fpgasoftware.intel.com/eula.-->
             &lt;/value&gt;
         &lt;/entry&gt;
         &lt;entry&gt;
+            &lt;key&gt;ctrl_mmr_slave_0&lt;/key&gt;
+            &lt;value&gt;
+                &lt;connectionPointName&gt;ctrl_mmr_slave_0&lt;/connectionPointName&gt;
+                &lt;suppliedSystemInfos/&gt;
+                &lt;consumedSystemInfos&gt;
+                    &lt;entry&gt;
+                        &lt;key&gt;ADDRESS_MAP&lt;/key&gt;
+                        &lt;value&gt;&amp;lt;address-map&amp;gt;&amp;lt;slave name='ctrl_mmr_slave_0' start='0x0' end='0x1000' datawidth='32' /&amp;gt;&amp;lt;/address-map&amp;gt;&lt;/value&gt;
+                    &lt;/entry&gt;
+                    &lt;entry&gt;
+                        &lt;key&gt;ADDRESS_WIDTH&lt;/key&gt;
+                        &lt;value&gt;12&lt;/value&gt;
+                    &lt;/entry&gt;
+                    &lt;entry&gt;
+                        &lt;key&gt;MAX_SLAVE_DATA_WIDTH&lt;/key&gt;
+                        &lt;value&gt;32&lt;/value&gt;
+                    &lt;/entry&gt;
+                &lt;/consumedSystemInfos&gt;
+            &lt;/value&gt;
+        &lt;/entry&gt;
+        &lt;entry&gt;
             &lt;key&gt;emif_usr_clk&lt;/key&gt;
             &lt;value&gt;
                 &lt;connectionPointName&gt;emif_usr_clk&lt;/connectionPointName&gt;
@@ -10406,8 +10936,22 @@ https://fpgasoftware.intel.com/eula.-->
         <altera:port_mapping altera:name="amm_write_0" altera:internal="amm_write_0"></altera:port_mapping>
         <altera:port_mapping altera:name="amm_writedata_0" altera:internal="amm_writedata_0"></altera:port_mapping>
       </altera:interface_mapping>
+      <altera:interface_mapping altera:name="ctrl_auto_precharge_0" altera:internal="emif_fm_0.ctrl_auto_precharge_0" altera:type="conduit" altera:dir="end">
+        <altera:port_mapping altera:name="ctrl_auto_precharge_req_0" altera:internal="ctrl_auto_precharge_req_0"></altera:port_mapping>
+      </altera:interface_mapping>
       <altera:interface_mapping altera:name="ctrl_ecc_user_interrupt_0" altera:internal="emif_fm_0.ctrl_ecc_user_interrupt_0" altera:type="conduit" altera:dir="end">
         <altera:port_mapping altera:name="ctrl_ecc_user_interrupt_0" altera:internal="ctrl_ecc_user_interrupt_0"></altera:port_mapping>
+      </altera:interface_mapping>
+      <altera:interface_mapping altera:name="ctrl_mmr_slave_0" altera:internal="emif_fm_0.ctrl_mmr_slave_0" altera:type="avalon" altera:dir="end">
+        <altera:port_mapping altera:name="mmr_slave_address_0" altera:internal="mmr_slave_address_0"></altera:port_mapping>
+        <altera:port_mapping altera:name="mmr_slave_beginbursttransfer_0" altera:internal="mmr_slave_beginbursttransfer_0"></altera:port_mapping>
+        <altera:port_mapping altera:name="mmr_slave_burstcount_0" altera:internal="mmr_slave_burstcount_0"></altera:port_mapping>
+        <altera:port_mapping altera:name="mmr_slave_read_0" altera:internal="mmr_slave_read_0"></altera:port_mapping>
+        <altera:port_mapping altera:name="mmr_slave_readdata_0" altera:internal="mmr_slave_readdata_0"></altera:port_mapping>
+        <altera:port_mapping altera:name="mmr_slave_readdatavalid_0" altera:internal="mmr_slave_readdatavalid_0"></altera:port_mapping>
+        <altera:port_mapping altera:name="mmr_slave_waitrequest_0" altera:internal="mmr_slave_waitrequest_0"></altera:port_mapping>
+        <altera:port_mapping altera:name="mmr_slave_write_0" altera:internal="mmr_slave_write_0"></altera:port_mapping>
+        <altera:port_mapping altera:name="mmr_slave_writedata_0" altera:internal="mmr_slave_writedata_0"></altera:port_mapping>
       </altera:interface_mapping>
       <altera:interface_mapping altera:name="emif_calbus" altera:internal="emif_fm_0.emif_calbus" altera:type="conduit" altera:dir="end">
         <altera:port_mapping altera:name="calbus_address" altera:internal="calbus_address"></altera:port_mapping>
@@ -10471,13 +11015,1528 @@ https://fpgasoftware.intel.com/eula.-->
         <ipxact:version>1.0</ipxact:version>
         <ipxact:busInterfaces>
           <ipxact:busInterface>
+            <ipxact:name>arch.ctrl_mmr_slave_0</ipxact:name>
+            <ipxact:busType vendor="intel" library="intel" name="avalon" version="22.1"></ipxact:busType>
+            <ipxact:slave>
+              <ipxact:memoryMapRef memoryMapRef="arch.ctrl_mmr_slave_0"></ipxact:memoryMapRef>
+            </ipxact:slave>
+          </ipxact:busInterface>
+          <ipxact:busInterface>
             <ipxact:name>ecc_core.ctrl_amm_0</ipxact:name>
-            <ipxact:busType vendor="intel" library="intel" name="avalon" version="21.4"></ipxact:busType>
+            <ipxact:busType vendor="intel" library="intel" name="avalon" version="22.1"></ipxact:busType>
             <ipxact:slave></ipxact:slave>
           </ipxact:busInterface>
+          <ipxact:busInterface>
+            <ipxact:name>ecc_core.ctrl_mmr_slave_0</ipxact:name>
+            <ipxact:busType vendor="intel" library="intel" name="avalon" version="22.1"></ipxact:busType>
+            <ipxact:slave></ipxact:slave>
+          </ipxact:busInterface>
+          <ipxact:busInterface>
+            <ipxact:name>ecc_core.ctrl_mmr_master_0</ipxact:name>
+            <ipxact:busType vendor="intel" library="intel" name="avalon" version="22.1"></ipxact:busType>
+            <ipxact:master>
+              <ipxact:addressSpaceRef addressSpaceRef="ecc_core.ctrl_mmr_master_0">
+                <ipxact:baseAddress>0x0000</ipxact:baseAddress>
+              </ipxact:addressSpaceRef>
+            </ipxact:master>
+          </ipxact:busInterface>
         </ipxact:busInterfaces>
-        <ipxact:addressSpaces></ipxact:addressSpaces>
-        <ipxact:memoryMaps></ipxact:memoryMaps>
+        <ipxact:addressSpaces>
+          <ipxact:addressSpace>
+            <ipxact:name>ecc_core.ctrl_mmr_master_0</ipxact:name>
+            <ipxact:segments>
+              <ipxact:segment>
+                <ipxact:name>arch.ctrl_mmr_slave_0</ipxact:name>
+                <ipxact:addressOffset>0x0000</ipxact:addressOffset>
+                <ipxact:range>0x1000</ipxact:range>
+              </ipxact:segment>
+            </ipxact:segments>
+          </ipxact:addressSpace>
+        </ipxact:addressSpaces>
+        <ipxact:memoryMaps>
+          <ipxact:memoryMap>
+            <ipxact:name>arch.ctrl_mmr_slave_0</ipxact:name>
+            <ipxact:addressBlock>
+              <ipxact:name>fm_mmr_block</ipxact:name>
+              <ipxact:baseAddress>0x0</ipxact:baseAddress>
+              <ipxact:range>0x14c</ipxact:range>
+              <ipxact:width>32</ipxact:width>
+              <ipxact:usage>register</ipxact:usage>
+              <ipxact:access>read-write</ipxact:access>
+              <ipxact:register>
+                <ipxact:name>ctrlcfg0</ipxact:name>
+                <ipxact:displayName>ctrlcfg0</ipxact:displayName>
+                <ipxact:addressOffset>0x10</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>cfg_mem_type</ipxact:name>
+                  <ipxact:description>Selects memory type. Program this field with one of the following binary values, "0000" for DDR3 SDRAM, "0001" for DDR4 SDRAM, "0010" for LPDDR3 SDRAM and "0011" for  RLDRAM3.</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0xf</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>4</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_dimm_type</ipxact:name>
+                  <ipxact:description>Selects dimm type. Program this field with one of the following binary values, "3</ipxact:description>
+                  <ipxact:bitOffset>4</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x7</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>3</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_ac_pos</ipxact:name>
+                  <ipxact:description>Specify C/A (command/address) pin position. 2</ipxact:description>
+                  <ipxact:bitOffset>7</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x3</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>2</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>reserved0_ctrlcfg0</ipxact:name>
+                  <ipxact:bitOffset>9</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x000000</ipxact:value>
+                      <ipxact:mask>0x7fffff</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>23</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>ctrlcfg1</ipxact:name>
+                <ipxact:displayName>ctrlcfg1</ipxact:displayName>
+                <ipxact:addressOffset>0x11</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>reserved0_ctrlcfg1</ipxact:name>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x1f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>5</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_addr_order</ipxact:name>
+                  <ipxact:description>Selects the order for address interleaving.  Programming this field with different values gives different mappings between the AXI or Avalon-MM address and the SDRAM address. Program this field with the following binary values to select the ordering. "00" - chip, row, bank(BG, BA), column; "01" - chip, bank(BG, BA), row, column; "10"-row, chip, bank(BG, BA), column;</ipxact:description>
+                  <ipxact:bitOffset>5</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x3</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>2</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_ctrl_enable_ecc</ipxact:name>
+                  <ipxact:description>Enable the generation and checking of ECC.</ipxact:description>
+                  <ipxact:bitOffset>7</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_dbc0_enable_ecc</ipxact:name>
+                  <ipxact:description>Enable the generation and checking of ECC.</ipxact:description>
+                  <ipxact:bitOffset>8</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_dbc1_enable_ecc</ipxact:name>
+                  <ipxact:description>Enable the generation and checking of ECC.</ipxact:description>
+                  <ipxact:bitOffset>9</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_dbc2_enable_ecc</ipxact:name>
+                  <ipxact:description>Enable the generation and checking of ECC.</ipxact:description>
+                  <ipxact:bitOffset>10</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_dbc3_enable_ecc</ipxact:name>
+                  <ipxact:description>Enable the generation and checking of ECC.</ipxact:description>
+                  <ipxact:bitOffset>11</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_reorder_data</ipxact:name>
+                  <ipxact:description>This bit controls whether the controller can re-order operations to optimize SDRAM bandwidth.  It should generally be set to a one.</ipxact:description>
+                  <ipxact:bitOffset>12</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_ctrl_reorder_rdata</ipxact:name>
+                  <ipxact:description>This bit controls whether the controller need to re-order the read return data.</ipxact:description>
+                  <ipxact:bitOffset>13</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_dbc0_reorder_rdata</ipxact:name>
+                  <ipxact:description>This bit controls whether the controller need to re-order the read return data.</ipxact:description>
+                  <ipxact:bitOffset>14</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_dbc1_reorder_rdata</ipxact:name>
+                  <ipxact:description>This bit controls whether the controller need to re-order the read return data.</ipxact:description>
+                  <ipxact:bitOffset>15</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_dbc2_reorder_rdata</ipxact:name>
+                  <ipxact:description>This bit controls whether the controller need to re-order the read return data.</ipxact:description>
+                  <ipxact:bitOffset>16</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_dbc3_reorder_rdata</ipxact:name>
+                  <ipxact:description>This bit controls whether the controller need to re-order the read return data.</ipxact:description>
+                  <ipxact:bitOffset>17</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_reorder_read</ipxact:name>
+                  <ipxact:description>This bit controls whether the controller can re-order read command to.  1</ipxact:description>
+                  <ipxact:bitOffset>18</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>reserved1_ctrlcfg1</ipxact:name>
+                  <ipxact:bitOffset>19</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x7f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>7</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_ctrl_enable_dm</ipxact:name>
+                  <ipxact:description>Set to a one to enable DRAM operation if DM pins are connected.</ipxact:description>
+                  <ipxact:bitOffset>26</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_dbc0_enable_dm</ipxact:name>
+                  <ipxact:description>Set to a one to enable DRAM operation if DM pins are connected.</ipxact:description>
+                  <ipxact:bitOffset>27</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_dbc1_enable_dm</ipxact:name>
+                  <ipxact:description>Set to a one to enable DRAM operation if DM pins are connected.</ipxact:description>
+                  <ipxact:bitOffset>28</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_dbc2_enable_dm</ipxact:name>
+                  <ipxact:description>Set to a one to enable DRAM operation if DM pins are connected.</ipxact:description>
+                  <ipxact:bitOffset>29</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_dbc3_enable_dm</ipxact:name>
+                  <ipxact:description>Set to a one to enable DRAM operation if DM pins are connected.</ipxact:description>
+                  <ipxact:bitOffset>30</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>dramtiming0</ipxact:name>
+                <ipxact:displayName>dramtiming0</ipxact:displayName>
+                <ipxact:addressOffset>0x20</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>cfg_tcl</ipxact:name>
+                  <ipxact:description>Memory read latency.</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x7f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>7</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>reserved0_dramtiming0</ipxact:name>
+                  <ipxact:bitOffset>7</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x000</ipxact:value>
+                      <ipxact:mask>0xfff</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>12</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>sbcfg1</ipxact:name>
+                <ipxact:displayName>sbcfg1</ipxact:displayName>
+                <ipxact:addressOffset>0x24</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>reserved0_sbcfg1</ipxact:name>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_arf_to_valid</ipxact:name>
+                  <ipxact:description>Auto Refresh to valid DRAM command window</ipxact:description>
+                  <ipxact:bitOffset>1</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x000</ipxact:value>
+                      <ipxact:mask>0x3ff</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>10</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>reserved1_sbcfg1</ipxact:name>
+                  <ipxact:bitOffset>11</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x000000</ipxact:value>
+                      <ipxact:mask>0x1fffff</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>21</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>caltiming0</ipxact:name>
+                <ipxact:displayName>caltiming0</ipxact:displayName>
+                <ipxact:addressOffset>0x31</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_act_to_rdwr</ipxact:name>
+                  <ipxact:description>Activate to Read/write command timing</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_act_to_pch</ipxact:name>
+                  <ipxact:description>Active to precharge</ipxact:description>
+                  <ipxact:bitOffset>6</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_act_to_act</ipxact:name>
+                  <ipxact:description>Active to activate timing on same bank</ipxact:description>
+                  <ipxact:bitOffset>12</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_act_to_act_diff_bank</ipxact:name>
+                  <ipxact:description>Active to activate timing on different banks, for DDR4 same bank group</ipxact:description>
+                  <ipxact:bitOffset>18</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_act_to_act_diff_bg</ipxact:name>
+                  <ipxact:description>Active to activate timing on different bank groups, DDR4 only</ipxact:description>
+                  <ipxact:bitOffset>24</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>caltiming1</ipxact:name>
+                <ipxact:displayName>caltiming1</ipxact:displayName>
+                <ipxact:addressOffset>0x32</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_rd_to_rd</ipxact:name>
+                  <ipxact:description>Read to read command timing on same bank</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_rd_to_rd_diff_chip</ipxact:name>
+                  <ipxact:description>Read to read command timing on different chips</ipxact:description>
+                  <ipxact:bitOffset>6</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_rd_to_rd_diff_bg</ipxact:name>
+                  <ipxact:description>Read to read command timing on different chips</ipxact:description>
+                  <ipxact:bitOffset>12</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_rd_to_wr</ipxact:name>
+                  <ipxact:description>Write to read command timing on same bank</ipxact:description>
+                  <ipxact:bitOffset>18</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_rd_to_wr_diff_chip</ipxact:name>
+                  <ipxact:description>Read to write command timing on different chips</ipxact:description>
+                  <ipxact:bitOffset>24</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>caltiming2</ipxact:name>
+                <ipxact:displayName>caltiming2</ipxact:displayName>
+                <ipxact:addressOffset>0x33</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_rd_to_wr_diff_bg</ipxact:name>
+                  <ipxact:description>Read to write command timing on different bank groups</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_rd_to_pch</ipxact:name>
+                  <ipxact:description>Read to precharge command timing</ipxact:description>
+                  <ipxact:bitOffset>6</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_rd_ap_to_valid</ipxact:name>
+                  <ipxact:description>Read command with autoprecharge to data valid timing</ipxact:description>
+                  <ipxact:bitOffset>12</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_wr_to_wr</ipxact:name>
+                  <ipxact:description>Write to write command timing on same bank.</ipxact:description>
+                  <ipxact:bitOffset>18</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_wr_to_wr_diff_chip</ipxact:name>
+                  <ipxact:description>Write to write command timing on different chips.</ipxact:description>
+                  <ipxact:bitOffset>24</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>caltiming3</ipxact:name>
+                <ipxact:displayName>caltiming3</ipxact:displayName>
+                <ipxact:addressOffset>0x34</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_wr_to_wr_diff_bg</ipxact:name>
+                  <ipxact:description>Write to write command timing on different bank groups.</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_wr_to_rd</ipxact:name>
+                  <ipxact:description>Write to read command timing.</ipxact:description>
+                  <ipxact:bitOffset>6</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_wr_to_rd_diff_chip</ipxact:name>
+                  <ipxact:description>Write to read command timing on different chips.</ipxact:description>
+                  <ipxact:bitOffset>12</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_wr_to_rd_diff_bg</ipxact:name>
+                  <ipxact:description>Write to read command timing on different bank groups</ipxact:description>
+                  <ipxact:bitOffset>18</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_wr_to_pch</ipxact:name>
+                  <ipxact:description>Write to precharge command timing.</ipxact:description>
+                  <ipxact:bitOffset>24</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>caltiming4</ipxact:name>
+                <ipxact:displayName>caltiming4</ipxact:displayName>
+                <ipxact:addressOffset>0x35</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_wr_ap_to_valid</ipxact:name>
+                  <ipxact:description>Write with autoprecharge to valid command timing.</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_pch_to_valid</ipxact:name>
+                  <ipxact:description>Precharge to valid command timing.</ipxact:description>
+                  <ipxact:bitOffset>6</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_pch_all_to_valid</ipxact:name>
+                  <ipxact:description>Precharge all to banks being ready for bank activation command.</ipxact:description>
+                  <ipxact:bitOffset>12</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_starve_limit</ipxact:name>
+                  <ipxact:description>Specifies the number of DRAM burst transactions an individual transaction will allow to reorder ahead of it before its priority is raised in the memory controller</ipxact:description>
+                  <ipxact:bitOffset>18</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0xff</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>8</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_pdn_to_valid</ipxact:name>
+                  <ipxact:description>Power down to valid bank command window.</ipxact:description>
+                  <ipxact:bitOffset>26</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x3f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>6</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>caltiming9</ipxact:name>
+                <ipxact:displayName>caltiming9</ipxact:displayName>
+                <ipxact:addressOffset>0x40</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>cfg_t_param_4_act_to_act</ipxact:name>
+                  <ipxact:description>The four-activate window timing parameter.</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0xff</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>8</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>dramaddrw</ipxact:name>
+                <ipxact:displayName>dramaddrw</ipxact:displayName>
+                <ipxact:addressOffset>0x42</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>cfg_col_addr_width</ipxact:name>
+                  <ipxact:description>The number of column address bits for the memory devices in your memory interface.</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x1f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>5</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_row_addr_width</ipxact:name>
+                  <ipxact:description>The number of row address bits for the memory devices in your memory interface.</ipxact:description>
+                  <ipxact:bitOffset>5</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00</ipxact:value>
+                      <ipxact:mask>0x1f</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>5</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_bank_addr_width</ipxact:name>
+                  <ipxact:description>The number of bank address bits for the memory devices in your memory interface.</ipxact:description>
+                  <ipxact:bitOffset>10</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0xf</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>4</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_bank_group_addr_width</ipxact:name>
+                  <ipxact:description>The number of bank group address bits for the memory devices in your memory interface.</ipxact:description>
+                  <ipxact:bitOffset>14</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x3</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>2</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_cs_addr_width</ipxact:name>
+                  <ipxact:description>The number of chip select address bits for the memory devices in your memory interface.</ipxact:description>
+                  <ipxact:bitOffset>16</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x7</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>3</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>sideband0</ipxact:name>
+                <ipxact:displayName>sideband0</ipxact:displayName>
+                <ipxact:addressOffset>0x43</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-write</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>mr_cmd_trigger</ipxact:name>
+                  <ipxact:description>Write to 1 to trigger the execution of the mode register command. It</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-write</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>sideband1</ipxact:name>
+                <ipxact:displayName>sideband1</ipxact:displayName>
+                <ipxact:addressOffset>0x44</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-write</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>mmr_refresh_req</ipxact:name>
+                  <ipxact:description>When asserted, indicates Refresh request to the specific rank. Each bit corresponds to each rank. Controller clear this bit to</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0xf</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>4</ipxact:bitWidth>
+                  <ipxact:access>read-write</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>sideband4</ipxact:name>
+                <ipxact:displayName>sideband4</ipxact:displayName>
+                <ipxact:addressOffset>0x47</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-write</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>mmr_self_rfsh_req</ipxact:name>
+                  <ipxact:description>When asserted, indicates self refresh request to the specific rank. Each bit corresponds to each rank. These bits are write clear</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0xf</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>4</ipxact:bitWidth>
+                  <ipxact:access>read-write</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>sideband6</ipxact:name>
+                <ipxact:displayName>sideband6</ipxact:displayName>
+                <ipxact:addressOffset>0x49</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>mr_cmd_ack</ipxact:name>
+                  <ipxact:description>Acknowledge to mode register command</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>sideband7</ipxact:name>
+                <ipxact:displayName>sideband7</ipxact:displayName>
+                <ipxact:addressOffset>0x50</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>mmr_refresh_ack</ipxact:name>
+                  <ipxact:description>Acknowledge to indicate refresh is in progress</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>sideband9</ipxact:name>
+                <ipxact:displayName>sideband9</ipxact:displayName>
+                <ipxact:addressOffset>0x52</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>mmr_self_rfsh_ack</ipxact:name>
+                  <ipxact:description>Acknowledge to indicate self refresh is progress</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>sideband11</ipxact:name>
+                <ipxact:displayName>sideband11</ipxact:displayName>
+                <ipxact:addressOffset>0x54</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>mmr_auto_pd_ack</ipxact:name>
+                  <ipxact:description>Acknowledge to indicate auto power down is in progress</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>sideband12</ipxact:name>
+                <ipxact:displayName>sideband12</ipxact:displayName>
+                <ipxact:addressOffset>0x55</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-write</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>mr_cmd_type</ipxact:name>
+                  <ipxact:description>Indicates the type of Mode Register Command &lt;br&gt;</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x7</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>3</ipxact:bitWidth>
+                  <ipxact:access>read-write</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>mr_cmd_rank</ipxact:name>
+                  <ipxact:description>Indicates which rank the mode register command is intended to.&lt;br&gt;</ipxact:description>
+                  <ipxact:bitOffset>3</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0xf</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>4</ipxact:bitWidth>
+                  <ipxact:access>read-write</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>sideband13</ipxact:name>
+                <ipxact:displayName>sideband13</ipxact:displayName>
+                <ipxact:addressOffset>0x56</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-write</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>mr_cmd_opcode</ipxact:name>
+                  <ipxact:description>[31:27] reserved.&lt;br&gt;&lt;br&gt;</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00000000</ipxact:value>
+                      <ipxact:mask>0xffffffff</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>32</ipxact:bitWidth>
+                  <ipxact:access>read-write</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>sideband14</ipxact:name>
+                <ipxact:displayName>sideband14</ipxact:displayName>
+                <ipxact:addressOffset>0x57</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>mmr_refresh_bank</ipxact:name>
+                  <ipxact:description>user refresh bank information, binary representation of bank address. Enables refresh to that bank address when requested</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0000</ipxact:value>
+                      <ipxact:mask>0xffff</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>16</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>dramsts</ipxact:name>
+                <ipxact:displayName>dramsts</ipxact:displayName>
+                <ipxact:addressOffset>0x59</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>phy_cal_success</ipxact:name>
+                  <ipxact:description>This bit will be set to 1 if the PHY was able to successfully calibrate.</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>phy_cal_fail</ipxact:name>
+                  <ipxact:description>This bit  will be set to 1 if the PHY was unable to calibrate.</ipxact:description>
+                  <ipxact:bitOffset>1</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>niosreserve0</ipxact:name>
+                <ipxact:displayName>niosreserve0</ipxact:displayName>
+                <ipxact:addressOffset>0x68</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>nios_reserve0</ipxact:name>
+                  <ipxact:description>Indicates interface width.</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0000</ipxact:value>
+                      <ipxact:mask>0xffff</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>16</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>niosreserve1</ipxact:name>
+                <ipxact:displayName>niosreserve1</ipxact:displayName>
+                <ipxact:addressOffset>0x69</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>nios_reserve1</ipxact:name>
+                  <ipxact:description>Indicates ACDS version.</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0000</ipxact:value>
+                      <ipxact:mask>0xffff</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>16</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>sideband16</ipxact:name>
+                <ipxact:displayName>sideband16</ipxact:displayName>
+                <ipxact:addressOffset>0x79</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>mmr_3ds_refresh_ack</ipxact:name>
+                  <ipxact:description>3DS Refresh Acknowledge. When asserted, indicates ack for DDR4 3DS Refresh.&lt;br&gt;</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00000000</ipxact:value>
+                      <ipxact:mask>0xffffffff</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>32</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>ecc3</ipxact:name>
+                <ipxact:displayName>ecc3</ipxact:displayName>
+                <ipxact:addressOffset>0x130</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-write</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>cfg_gen_sbe</ipxact:name>
+                  <ipxact:description>A value of 1 enables the generate SBE feature. Generates a single bit error during the write process.</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-write</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_gen_dbe</ipxact:name>
+                  <ipxact:description>A value of 1 enables the generate DBE feature. Generates a double bit error during the write process.</ipxact:description>
+                  <ipxact:bitOffset>1</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-write</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_enable_intr</ipxact:name>
+                  <ipxact:description>A value of 1 enables the interrupt feature. The interrupt signal notifies if an error condition occurs. The condition is configurable.</ipxact:description>
+                  <ipxact:bitOffset>2</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-write</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_mask_sbe_intr</ipxact:name>
+                  <ipxact:description>A value of 1 masks the interrupt signal when SBE occurs.</ipxact:description>
+                  <ipxact:bitOffset>3</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-write</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_mask_dbe_intr</ipxact:name>
+                  <ipxact:description>A value of 1 masks the interrupt signal when DBE occurs.</ipxact:description>
+                  <ipxact:bitOffset>4</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-write</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_mask_corr_dropped_intr</ipxact:name>
+                  <ipxact:description>A value of 1 masks the interrupt signal when auto correction command cant be scheduled, due to backpressure (FIFO full).</ipxact:description>
+                  <ipxact:bitOffset>5</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-write</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_mask_hmi_intr</ipxact:name>
+                  <ipxact:description>A value of 1 masks the interrupt signal when the hard memory interface asserts an interrupt signal via hmi_interrupt port.</ipxact:description>
+                  <ipxact:bitOffset>6</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-write</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>cfg_clr_intr</ipxact:name>
+                  <ipxact:description>Writing a vale of 1 to this self-clearing bit clears the interrupt signal, error status, and address.</ipxact:description>
+                  <ipxact:bitOffset>7</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-write</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>reserved0_ecc3</ipxact:name>
+                  <ipxact:bitOffset>8</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x000000</ipxact:value>
+                      <ipxact:mask>0xffffff</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>24</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>ecc4</ipxact:name>
+                <ipxact:displayName>ecc4</ipxact:displayName>
+                <ipxact:addressOffset>0x144</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>sts_ecc_intr</ipxact:name>
+                  <ipxact:description>Indicates the interrupt status; a value of 1 indicates interrupt occurred.</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>sts_sbe_error</ipxact:name>
+                  <ipxact:description>Indicates the SBE status; a value of 1 indicates SBE occurred.</ipxact:description>
+                  <ipxact:bitOffset>1</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>sts_dbe_error</ipxact:name>
+                  <ipxact:description>Indicates the DBE status; a value of 1 indicates DBE occurred.</ipxact:description>
+                  <ipxact:bitOffset>2</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>sts_corr_dropped</ipxact:name>
+                  <ipxact:description>Indicates the status of correction command dropped; a value of 1 indicates correction command dropped.</ipxact:description>
+                  <ipxact:bitOffset>3</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x1</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>1</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>sts_sbe_count</ipxact:name>
+                  <ipxact:description>Indicates the number of times SBE error has occurred. The counter will overflow.</ipxact:description>
+                  <ipxact:bitOffset>4</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0xf</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>4</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>sts_dbe_count</ipxact:name>
+                  <ipxact:description>Indicates the number of times DBE error has occurred. The counter will overflow.</ipxact:description>
+                  <ipxact:bitOffset>8</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0xf</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>4</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>sts_corr_dropped_count</ipxact:name>
+                  <ipxact:description>Indicates the number of times correction command has dropped. Counter will overflow.</ipxact:description>
+                  <ipxact:bitOffset>12</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0xf</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>4</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+                <ipxact:field>
+                  <ipxact:name>reserved0_ecc4</ipxact:name>
+                  <ipxact:bitOffset>16</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0000</ipxact:value>
+                      <ipxact:mask>0xffff</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>16</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>ecc5</ipxact:name>
+                <ipxact:displayName>ecc5</ipxact:displayName>
+                <ipxact:addressOffset>0x145</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>sts_err_addr</ipxact:name>
+                  <ipxact:description>Address of the most recent single-bit error or double-bit error.</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00000000</ipxact:value>
+                      <ipxact:mask>0xffffffff</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>32</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>ecc6</ipxact:name>
+                <ipxact:displayName>ecc6</ipxact:displayName>
+                <ipxact:addressOffset>0x146</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>sts_corr_dropped_addr</ipxact:name>
+                  <ipxact:description>Address of the most recent correction command dropped.</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x00000000</ipxact:value>
+                      <ipxact:mask>0xffffffff</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>32</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>ecc7</ipxact:name>
+                <ipxact:displayName>ecc7</ipxact:displayName>
+                <ipxact:addressOffset>0x147</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>sts_err_addr_ext</ipxact:name>
+                  <ipxact:description>Extension for address of the most recent SBE/DBE.</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x7</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>3</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+              <ipxact:register>
+                <ipxact:name>ecc8</ipxact:name>
+                <ipxact:displayName>ecc8</ipxact:displayName>
+                <ipxact:addressOffset>0x148</ipxact:addressOffset>
+                <ipxact:size>32</ipxact:size>
+                <ipxact:access>read-only</ipxact:access>
+                <ipxact:field>
+                  <ipxact:name>sts_corr_dropped_addr_ext</ipxact:name>
+                  <ipxact:description>Extension for address of the most recent correction command dropped.</ipxact:description>
+                  <ipxact:bitOffset>0</ipxact:bitOffset>
+                  <ipxact:resets>
+                    <ipxact:reset>
+                      <ipxact:value>0x0</ipxact:value>
+                      <ipxact:mask>0x7</ipxact:mask>
+                    </ipxact:reset>
+                  </ipxact:resets>
+                  <ipxact:bitWidth>3</ipxact:bitWidth>
+                  <ipxact:access>read-only</ipxact:access>
+                </ipxact:field>
+              </ipxact:register>
+            </ipxact:addressBlock>
+            <ipxact:addressUnitBits>8</ipxact:addressUnitBits>
+          </ipxact:memoryMap>
+        </ipxact:memoryMaps>
       </ipxact:component>
     </ipxact:components>
     <altera:altera_has_warnings>false</altera:altera_has_warnings>

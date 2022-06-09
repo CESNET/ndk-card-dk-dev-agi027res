@@ -12,11 +12,13 @@ global BOARD
 set BOARD "DK-DEV-AGI027RES"
 
 # Paths to components
-set ASYNC_OPEN_LOOP_BASE "$OFM_PATH/comp/base/async/open_loop"
+set ASYNC_OPEN_LOOP_BASE    "$OFM_PATH/comp/base/async/open_loop"
+set EMIF_REFRESH_BASE       "$OFM_PATH/comp/debug/mem_tester/emif_refresh"
 
 set COMPONENTS [concat $COMPONENTS [list \
-    [list "FPGA_COMMON"     $CARD_COMMON_BASE     $BOARD ] \
-    [list "ASYNC_OPEN_LOOP" $ASYNC_OPEN_LOOP_BASE "FULL" ] \
+    [list "FPGA_COMMON"     $CARD_COMMON_BASE       $BOARD ] \
+    [list "ASYNC_OPEN_LOOP" $ASYNC_OPEN_LOOP_BASE   "FULL" ] \
+    [list "EMIF_REFRESH"    $EMIF_REFRESH_BASE      "FULL" ] \
 ]]
 
 # IP sources

@@ -406,7 +406,7 @@ begin
         QSFP_MODSEL_N           => open,
         QSFP_LPMODE             => open,
         QSFP_RESET_N            => open,
-        QSFP_MODPRS_N           => (others => '1'),
+        QSFP_MODPRS_N           => (others => '0'), -- fake module is present
         QSFP_INT_N              => (others => qsfpdd_1v2_port_int_n),
 
         MEM_CLK                 => mem_clk,
